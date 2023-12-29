@@ -13,9 +13,10 @@ const App: React.FC = () => {
     <Provider store={store}>
       <Router>
         <Routes>
+          <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/" element={<AddProduct/> } />
+          <Route path="/AddProduct" element={<AddProduct/> } />
           <Route path="/dashboard" element={<Dashboard/>} />
         </Routes>
       </Router>

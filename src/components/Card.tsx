@@ -1,7 +1,6 @@
-import React from 'react'
-import { useDispatch } from 'react-redux';
-import {removeCart} from '../redux/dataSlice';
-
+import React from "react";
+import { useDispatch } from "react-redux";
+import { removeCart } from "../redux/dataSlice";
 
 interface CardProps {
   title: string;
@@ -9,24 +8,28 @@ interface CardProps {
   description: string;
 }
 
-    const Card:React.FC<CardProps> = ({title,rating,description}) => {
-      const dispatch = useDispatch();
-      const handledelete=()=>{
-        const productToRemove:CardProps = { title, rating, description };
-        dispatch(removeCart(productToRemove));
-      }
-      return (
-      <>
-          <div className='card'>
-            <img src={"https://cdn.pixabay.com/photo/2017/07/26/06/34/art-2540641_1280.png"} alt=''></img>
-            <h2>Title {title}</h2>
-          <h3>Description {description.slice(0,20)+"..."}</h3>
-          <p>Rating: {rating}</p>
-          <button onClick={handledelete}>Delete</button>
-          
-        </div>
-        </>
-      )
-    }
+const Card: React.FC<CardProps> = ({ title, rating, description }) => {
+  const dispatch = useDispatch();
+  const handledelete = () => {
+  const productToRemove: CardProps = { title, rating, description };
+  dispatch(removeCart(productToRemove));
+  };
+  return (
+    <>
+      <div className="card">
+        <img
+          src={
+            "https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761_1280.jpg"
+          }
+          alt=""
+        ></img>
+        <h3>Title: {title}</h3>
+        <h3>Description: {description.slice(0, 20) + "..."}</h3>
+        <h4>Rating: {rating}</h4>
+        <button onClick={handledelete}>Delete</button>
+      </div>
+    </>
+  );
+};
 
-    export default Card
+export default Card;
