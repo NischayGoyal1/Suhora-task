@@ -7,8 +7,8 @@ This React app, developed with TypeScript and Redux Toolkit, focuses on secure u
 #### Note
 **Make sure you have NodeJs installed in your system**
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/NischayGoyal1/Suhora-task.git
+```bash
+git clone https://github.com/NischayGoyal1/Suhora-task.git
    ```
 2. Install dependencies
 ```bash
@@ -18,7 +18,7 @@ npm install
 ```bash
 npm start
 ```
-
+<br/>
 
 ### TechStack Used
 1. #### ReactJs
@@ -26,7 +26,10 @@ npm start
 3. #### ReduxToolkit
 4. #### Html/Css
 
+<br/>
+
 ### Functionalities
+
 #### Authentication
 **1. Singup : User Can Signp securely**
 
@@ -45,8 +48,10 @@ npm start
 
 ![image](https://github.com/llaske/sugarizer/assets/81116984/2fc6cb02-3ff9-4fc8-8e57-94e8905f5bad)
 
+<br/>
 
-
+ ---
+ 
 ### Backend
 #### I have used **JWT (Json Web Token)** for login and Signup functionality to authenticate securely and deployed that **Rest API** on Render
 
