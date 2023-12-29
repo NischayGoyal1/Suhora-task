@@ -41,9 +41,7 @@ npm start
 <br />
 
 ### Snippets
-![image](https://github.com/llaske/sugarizer/assets/81116984/569371c0-7452-41a7-81a6-ed4955eab1b7)
-
-![image](https://github.com/llaske/sugarizer/assets/81116984/5ac9b513-81e4-4ca8-a74a-efc0f7184449)
+![image](https://github.com/llaske/sugarizer/assets/81116984/569371c0-7452-41a7-81a6-ed4955eab1b7) ![image](https://github.com/llaske/sugarizer/assets/81116984/5ac9b513-81e4-4ca8-a74a-efc0f7184449)
 
 ![image](https://github.com/llaske/sugarizer/assets/81116984/2fc6cb02-3ff9-4fc8-8e57-94e8905f5bad)
 
