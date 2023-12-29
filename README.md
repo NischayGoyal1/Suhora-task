@@ -26,13 +26,27 @@ npm start
 3. #### ReduxToolkit
 4. #### Html/Css
 
+### Functionalities
+#### Authentication
+**1. Singup : User Can Signp securely**
+
+**2. Login  : User Can Login securely**
+
+### Dashboard
+
+**1. Filter Products using search option _(Managed By ReduxToolkit)_**
+
+**2. Add Products : User Can Add and Delete Products (Managed By ReduxToolkit)_**
 
 <br />
 
 ### Snippets
-![image](https://github.com/llaske/sugarizer/assets/81116984/10c624c1-fa9e-4cbe-a841-8ca29e373e9b)
-![image](https://github.com/llaske/sugarizer/assets/81116984/a913fdeb-e761-4f6f-a5bd-5fab871dfae3)
-![image](https://github.com/llaske/sugarizer/assets/81116984/783ae7f2-a766-4957-acda-262d4b70a770)
+![image](https://github.com/llaske/sugarizer/assets/81116984/569371c0-7452-41a7-81a6-ed4955eab1b7)
+
+![image](https://github.com/llaske/sugarizer/assets/81116984/5ac9b513-81e4-4ca8-a74a-efc0f7184449)
+
+![image](https://github.com/llaske/sugarizer/assets/81116984/2fc6cb02-3ff9-4fc8-8e57-94e8905f5bad)
+
 
 
 ### Backend
